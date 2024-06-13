@@ -2,8 +2,7 @@
 1. 自動將Excel中每個儲存格內的圖片網址下載下來
 2. 將各個圖片加上流水號
 ****
-## downloadImgExcel.py 是用來下載Excel網址中的圖片
-## insertExcel.py 將每一張圖片的新名字填入Excel中
+## downloadImgExcel.py 只會用到這支程式
 ****
 # 步驟
 ## 一、 Clone我的檔案，git clone或是直接下載zip檔都行  
@@ -29,7 +28,7 @@
       output_folder = '{儲存圖片的目的資料夾}'
       ```  
    4. ```python
-      filename_column_letter = ''{儲存圖片名字的行}'
+      filename_column_letter = '{儲存圖片名字的行}'
       ```  
 ## 五、執行
    * 輸入指令執行python檔案
